@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800;900&family=Roboto:wght@400;500;700;900&display=swap');
+body{
+    background-color: #FFDADA;
+}
+*{
+    color:white;
+    margin: 0;
+    padding: 0;
+}
+.post{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    background-color: #202020;
+    max-height: 500px;
+    margin-bottom: 15px;
+    border-radius: 25px;
+    padding: 10px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+.username{
+    display: flex;
+    margin: 10px 10px 0px 10px;
+}
+.name{
+    font-size: 30px;
+}
+.verify-image{
+    width: 24px;
+    height: 24px;
+    margin-top: 10px;
+}
+.surname{
+    margin-top: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: 100;
+}
+.text{
+    font-size: 20px;
+    margin: 15px 10px;
+}
+.statistics{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 5px;
+}
+
+.stat{
+    display: flex;
+    margin-right: 15px;
+}
+.stat-image{
+    height: 32px;
+    width: 32px;
+}
+.stat-image-like{
+    height: 32px;
+    width: 32px;
+}
+.active{
+    background-color: aliceblue;
+}
+.stat-text{
+    margin: 7px 0px;
+}
+.container-comments{
+    background-color: #404040;
+    border-radius: 25px;
+    width:100%;
+}
+.input-comment{
+    background-color: #FFCDCD;
+    position: relative;
+    display: inline-block;
+    height: 100%;
+    width: 75%;
+    background:transparent;
+    outline: none;
+    border: 0;
+    margin-left: 10px;
+}
+.leave-comment{
+    margin: 10px 0px;
+}
+.comments{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+.comment{
+    text-decoration: none;
+    display: inline;
+    background-color: #585858;
+    width: 75%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.user-comment{
+    font-size: 20px;
+    margin-left: 10px;
+}
+.text-comment{
+    margin-left: 20px;
+    font-weight: 500;
+}
+.comment-likes{
+    display: flex;
+    margin: 5px 5px 5px 10px;
+}
+.comment-like-image{
+    width: 16px;
+    height: 16px;
+}
+.comment-like-text{
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.mainpage{
+    display: flex;
+    justify-content: center;
+}
+.right-sidebar{
+    background-color: #FFCDCD;
+    flex-basis: 15%;
+    border-radius: 25px;
+    height: 400px;
+}
+.left-sidebar{
+    background-color: #FFCDCD;
+    flex-basis: 15%;
+    border-radius: 25px;
+    max-height: 420px;
+}
+.news{
+    flex-basis: 50%;
+    max-width: 1080px;
+    margin: 0px 50px;
+}
+.not{
+    flex-basis: 50%;
+    max-width: 1080px;
+    margin: 0px 50px;
+    display: flex;
+    justify-content: center;
+}
+.test{
+    background: transparent;
+    border: none;
+}
+
+
+
+header{
+    background-color: #FDBBBB;
+    display: flex;
+    margin-top: 10px;
+}
+.logo{
+    width: 10%;
+}
+.storylist{
+    display: flex;
+}
+.story{
+    display: inline;
+    background-color: #000;
+    text-decoration: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 15px;
+    margin: 10px 5px;
+}
+
+.profile-image{
+    width: 60px;
+    height: 60px;
+    border-radius: 15px;
+}
+.profile{
+    margin-left: auto;
+    margin-right: 100px ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+.whatsnew{
+    background-color: #202020;
+    height: 75px;
+    width: 50%;
+    margin: 15px auto;
+    border-radius: 20px;   
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.input{
+    background-color: #404040;
+    position: relative;
+    display: inline-block;
+    height: 100%;
+    width: 75%;
+    background:transparent;
+    outline: none;
+    border: 0;
+    margin-left: 10px;
+}
+.send{
+    background-color: #FFCDCD;
+    border-radius: 12px;
+    height: 100%;
+    padding: 10px;
+    border: none;
+}
+.send:active{
+    background-color: white;
+    color: white;
+    transition: 0.2s;
+}
+.send-image{
+    width: 24px;
+    height: 24px;
+}
+
+
+
+.event{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: flex-start;
+    padding: 5px;
+    padding-left:25px;
+}
+.events{
+    list-style-type: none;
+    margin-top: 25px;
+}
+.event-title{
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.event-title-messager{
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.event-image{
+}
+
+
+
+.activity{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 20px;
+    color: #202020;
+}
+
+.register{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 10px;
+    align-items: center;
+}
+
+.register-login{
+    background-color: #202020;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    outline: none;
+    border: 0;
+    height: 50px;
+    margin: 0 5px 15px 5px;
+    border-radius: 25px;
+}
+.register-password{
+    background-color: #202020;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    outline: none;
+    border: 0;
+    height: 50px;
+    margin: 0 5px 15px 5px;
+    border-radius: 25px;
+}
+
+.register-button{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 10px;
+    background-color: #202020;
+    padding: 15px;
+    border-radius: 25px;
+    border: solid black 3px;
+}
+.outlog-button{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    margin-top: 5px;
+    background-color: #FFCDCD;
+    border-radius: 25px;
+    color: black;
+    border: none;
+}
+.register-button:active{
+    background-color: #FFCDCD;
+    color: black;
+}
+
+
+.available{
+    display: flex;
+    width: 400px;
+    height: 400px;
+    justify-content: center;
+}
+.nott{
+    display: none;
+}
+
+.first-panel{
+    display: flex;
+}
+.profile-page{
+    background-color: #202020;
+    margin-top: 10px;
+    border-radius: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 30px;
+}
+.profile-name{
+    display: flex;
+    font-size: 30px;
+    font-weight: 700;
+}
+.verify-image-profile{
+    width: 24px;
+    height: 24px;
+    margin: 10px 1px 5px;
+    ;
+}
+.profile-stats{
+    margin-top: 25px;
+    display: flex;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #FFCDCD;
+    border-radius: 25px;
+}
+.profilestats{
+    margin-right: 50px;
+    color: #202020;
+    margin: 10px 50px 10px 5px ;
+}

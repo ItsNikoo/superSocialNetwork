@@ -1,0 +1,11 @@
+<div class="post">
+	<div class="username">
+                @user
+            </div>
+            <div class="text">
+                123123
+            </div>
+            <div class="likes">
+                likes
+            </div>
+        </div> 

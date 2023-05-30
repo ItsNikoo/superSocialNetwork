@@ -1,0 +1,35 @@
+`
+                    <div class="username">
+                        <div class="name">
+                            ${data[i].user}
+                        </div>
+                        <div class="verify">
+                            <img class="verify-image" src="verify.png" alt="">
+                        </div>
+                        <div class="surname">
+                            ${data[i].username}
+                            </div>
+                    </div>
+                            <div class="text">
+                                ${data[i].text}
+                            </div>
+                            <div class="statistics">
+                                <div class="stat">
+                                    <a href="#">
+                                        <img class="stat-image" src="like.png" alt="">
+                                    </a>
+                                    <p class="stat-text">${data[i].likes}</p>
+                                </div>
+                                
+                                <div class="stat">
+                                   <a href="#">
+                                       <img class="stat-image" src="comm.png" alt="">
+                                   </a>
+                                    <p class="stat-text">10K</p>
+                                </div>
+                                
+                                <div class="stat">
+                                   <img class="stat-image" src="shown.png" alt="">
+                                    <p class="stat-text">${data[i].shown}</p>
+                                </div>
+                            </div>`
